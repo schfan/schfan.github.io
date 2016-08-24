@@ -1,0 +1,164 @@
+/*Copyright by Songchun Fan, 2011-2013*/
+body { 
+	background-color: #fcfcfa;
+	text-align:center;
+	min-width:750px;
+	font-family: "PT Serif", serif;
+	font-size: 17px; 
+	color:#000;
+}
+
+a:link{
+	color: steelblue;	
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 10px;
+}
+
+li {
+	margin-top:0px;
+	margin-bottom: 5px;
+}
+
+#outer{
+	height:100%;
+	width:100%;
+	vertical-align:middle;
+}
+
+#container {
+	position:relative;
+	vertical-align:middle;
+} 
+
+#inner {
+	width: 820px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+}
+
+#phototb {
+	width:100%;
+	text-align:left;
+	line-height:150%;
+	/* border-bottom: 1px solid #eee; */
+	padding-bottom: 10px;
+}
+
+#pdf{
+	margin-top:-150px;
+	margin-left:150px;
+}
+
+#photocell {
+	text-align:right;
+}
+
+.photo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	text-align:middle;
+	margin-left:10px;
+}
+
+#name {
+	font-weight:bold;
+	font-size:16pt;
+	padding-bottom:3px;
+}
+
+#name a{
+	color:#000;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+#name a:hover{
+	text-decoration: underline;
+}
+
+#email {
+	font-family: Courier, monospace;
+	margin-bottom: 10px;
+}
+
+#description {
+	margin-top: 10px;
+	text-align: justify;
+	line-height:150%;
+}
+
+#description a{
+	background-color:transparent;
+	color: steelblue;
+}
+
+#description a:hover{
+	text-decoration: underline;
+}
+
+#publications {
+	text-align: justify;
+	line-height:150%;
+}
+
+#publications a{
+	background-color:transparent;
+	color: steelblue;
+}
+
+#publication a:hover{
+	text-decoration: underline;
+}
+
+a.paper{
+	background-color:transparent;
+	text-decoration:none;
+}
+
+.sectiontitle{
+	font-size: 19px;
+	font-weight: bold;
+	text-align:left;
+	margin-top:25px;
+}
+
+td.news_date {
+	padding-top:10px;
+	margin:0px;
+	vertical-align:top;
+}
+
+td.news_content {
+	padding-top:10px;
+	vertical-align:top;
+}
+
+.news_date{
+	width:35px;
+	text-align:left;
+}
+
+.news_content{
+	text-align:left;
+}
+
+#foot {
+	font-size: 12px;
+	text-align: center;
+	color: #bbb;
+	margin-top: 30px;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
