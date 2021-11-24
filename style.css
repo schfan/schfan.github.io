@@ -2,7 +2,6 @@
 body { 
 	background-color: #fcfcfa;
 	text-align:center;
-	min-width:750px;
 	font-family: "PT Serif", serif;
 	font-size: 17px; 
 	color:#000;
@@ -39,7 +38,6 @@ li {
 } 
 
 #inner {
-	width: 820px;
 	margin-left:auto;
 	margin-right:auto;
 	padding:20px;
